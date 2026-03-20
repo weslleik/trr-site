@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-heading: 'Sora', sans-serif;
+  --font-body:    'Sora', sans-serif;
+
+  --color-orange: #177a35;
+  --color-amber:  #177a35;
+  --color-dark:   #0A0A0A;
+  --color-gray:   #111111;
+  --color-muted:  #1A1A1A;
+  --color-border: #2A2A2A;
+  --color-text:   #E5E5E5;
+  --color-subtle: #888888;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar futurista */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--color-dark); }
+::-webkit-scrollbar-thumb { background: var(--color-orange); border-radius: 2px; }
+
+/* Seleção de texto */
+::selection { background: var(--color-orange); color: #000; }
+
+/* Linha divisória estilizada */
+.divider {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-orange), transparent);
+  margin: 1rem 0 1.5rem;
+}
+
+/* Glow effect para elementos em destaque */
+.glow-orange {
+  box-shadow: 0 0 30px #00551a;
+}
