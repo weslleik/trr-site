@@ -63,24 +63,26 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <div style={{ position: "relative", display: "inline-block" }}>
-  <div style={{
-    position: "absolute",
-    inset: "-3px",
-    borderRadius: "9999px",
-    background: "conic-gradient(from var(--angle), transparent 70%, #00551a, #00ff44, #00551a, transparent)",
-    animation: "spin 2s linear infinite",
-  }} />
-  <div style={{
-    position: "absolute",
-    inset: "-1px",
-    borderRadius: "9999px",
-    background: "#0a0a0a",
-  }} />
-  <div style={{ position: "relative", zIndex: 1 }}>
-    <WhatsAppButton message="Olá! Quero uma cotação de diesel." label="Solicitar cotação" />
-  </div>
-</div>
+          <div style={{ position: "relative", display: "inline-flex" }}>
+            <div style={{
+              position: "absolute",
+              inset: "-3px",
+              borderRadius: "9999px",
+              background: "conic-gradient(from var(--angle), transparent 70%, #00551a, #00ff44, #00551a, transparent)",
+              animation: "spin 2s linear infinite",
+              pointerEvents: "none",
+            }} />
+            <div style={{
+              position: "absolute",
+              inset: "-1px",
+              borderRadius: "9999px",
+              background: "#0a0a0a",
+              pointerEvents: "none",
+            }} />
+            <div style={{ position: "relative", zIndex: 1, width: "100%" }}>
+              <WhatsAppButton message="Olá! Quero uma cotação de diesel." label="Solicitar cotação" />
+            </div>
+          </div>
           <a
             href="#sobre"
             className="inline-flex items-center justify-center gap-2 border border-white/20 text-white hover:border-diesel-orange hover:text-diesel-orange px-8 py-4 rounded-full transition-all text-lg font-body"
