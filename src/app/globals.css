@@ -55,3 +55,13 @@ body {
 .glow-orange {
   box-shadow: 0 0 30px #00551a;
 }
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  to { --angle: 360deg; }
+}
