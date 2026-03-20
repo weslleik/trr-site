@@ -87,7 +87,7 @@ export default function HeroSection() {
             href="#sobre"
             className="inline-flex items-center justify-center gap-2 border border-white/20 text-white hover:border-diesel-orange hover:text-diesel-orange px-8 py-4 rounded-full transition-all text-lg font-body"
           >
-            Conheça a TRR
+            Conheça a Diamante
           </a>
         </motion.div>
       </div>

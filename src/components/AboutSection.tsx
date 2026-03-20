@@ -33,7 +33,7 @@ export default function AboutSection() {
             </h2>
             <div className="divider" />
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
-              A TRR nasceu com um propósito claro: entregar diesel com a agilidade que o agronegócio e as frotas precisam.
+              A Diamante Diesel nasceu com um propósito claro: entregar diesel com a agilidade que o agronegócio e as frotas precisam.
               Operamos com frota própria, tecnologia de rastreamento e um time dedicado a garantir que sua operação nunca pare.
             </p>
             <p className="text-gray-500 leading-relaxed">
