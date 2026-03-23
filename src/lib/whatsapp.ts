@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "49998101516"; 
+const WHATSAPP_NUMBER = "49999463791"; 
 
 export function getWhatsAppLink(message?: string): string {
   const text = message ?? "Olá! Vim pelo site e gostaria de uma cotação de diesel.";
