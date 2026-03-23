@@ -48,7 +48,7 @@ export default function Footer() {
 
         <div className="border-t border-diesel-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-700 text-xs">
-            © {new Date().getFullYear()} TRR Diesel. Todos os direitos reservados.
+            © {new Date().getFullYear()} Diamante Diesel. Todos os direitos reservados.
           </p>
           <p className="text-gray-700 text-xs">CNPJ: 27.373.838/0001-87</p>
         </div>
